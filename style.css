@@ -31,6 +31,7 @@ a {
     text-decoration: none;
     margin-left: 20px; 
     font-family: 'Montserrat';
+     font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 color: #2F281E;
@@ -41,6 +42,7 @@ color: #2F281E;
 
 #menu-link__product {
     font-family: 'Montserrat';
+     font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -106,6 +108,7 @@ color: #FF9900;
 }
 .design-title {
     font-family: 'Montserrat';
+     font-family: sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 44px;
@@ -117,6 +120,7 @@ color: #2F281E;
 }
 p {
     font-family: 'Montserrat';
+     font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -167,6 +171,7 @@ display: flex;
 .firstspan {
    display: inline-block;
     font-family: 'Montserrat';
+     font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -180,6 +185,7 @@ color: #2F281E;
     display: inline-block;
     margin-top: 10px;
     font-family: 'Montserrat';
+     font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
