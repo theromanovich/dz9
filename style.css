@@ -31,7 +31,7 @@ a {
     text-decoration: none;
     margin-left: 20px; 
     font-family: 'Montserrat';
-     font-family: sans-serif;
+    font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 color: #2F281E;
@@ -39,33 +39,34 @@ color: #2F281E;
 
 
 }
-
-#menu-link__product {
+.menu-link:hover {
     font-family: 'Montserrat';
-     font-family: sans-serif;
+    font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 28px;
 color: #FF9900;
 
-  
 }
+
+
 .logo {
     color:  black;
     font-weight: bold;
+    font-family: sans-serif;
 }
-.logodiv {
+.logo-div {
     margin-left: 80px;
     margin-right: 50px;
 }
-.menudiv {
+.header-menu-div {
     margin-right: 130px;
     margin-left: 130px;
 }
-.buttondiv {
-    margin-right: 10px;
-    margin-left: 80px;
+.header-button-div {
+    margin-right: 70px;
+    margin-left: 30px;
    
 
 }
@@ -76,13 +77,13 @@ color: #FF9900;
     margin-right: 20px;
     color: black;
     background-color: white;
-    
+    font-family: sans-serif;
     border: 1px solid aqua;
     border-radius: 5px;
     
 
 }
-.signup {
+.signin:hover {
     text-decoration: none;
     height: 40px;
     width: 110px;
@@ -90,13 +91,33 @@ color: #FF9900;
     background-color: #FF9900;
     border: 1px solid #FF9900;
    border-radius: 5px;
+}
+.signup {
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    border: 1px solid aqua;
+    border-radius: 5px;
 
 }
-.sectiondiv {
+.signup:hover {
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+   border-radius: 5px;
+}
+.section-div {
     margin-top: 50px;
     display: flex;
 }
-.textdiv {
+.main-text-div {
     width: 505px;
    
     margin-left: 150px;
@@ -108,7 +129,7 @@ color: #FF9900;
 }
 .design-title {
     font-family: 'Montserrat';
-     font-family: sans-serif;
+    font-family: sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 44px;
@@ -120,7 +141,7 @@ color: #2F281E;
 }
 p {
     font-family: 'Montserrat';
-     font-family: sans-serif;
+    font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -133,34 +154,68 @@ color: #544837;
  margin-bottom: 20px;
 
 }
-.buttontext {
+.button-text {
     margin-top: 20px;
     
 }
 .getstarted {
     text-decoration: none;
     height: 40px;
-    width: 110px;
+    width: 150px;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+
+}
+.getstarted:hover {
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
     color: white;
     background-color: #FF9900;
     border: 1px solid #FF9900;
    border-radius: 5px;
 }
-.newsec {
-    
-
-
-display: flex;
+.title-div {
+    display: flex;
     justify-content: center;
     text-align: center;
 }
+.title {
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.subtitle {
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #544837;
+}
+
 .iconssection {
  width: 100px;
  height: 100px;
 
 
 }
-.parents {
+.parent-icon-div {
     display: flex;
   justify-content: space-around;
   width: 1200px;
@@ -171,7 +226,7 @@ display: flex;
 .firstspan {
    display: inline-block;
     font-family: 'Montserrat';
-     font-family: sans-serif;
+    font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -185,7 +240,7 @@ color: #2F281E;
     display: inline-block;
     margin-top: 10px;
     font-family: 'Montserrat';
-     font-family: sans-serif;
+    font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -195,13 +250,24 @@ font-size: 16px;
 color: #544837;
 
 }
-.lastbutton {
+.section-button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 .signupnow {
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+.signupnow:hover{
     text-decoration: none;
     height: 40px;
     width: 150px;
@@ -228,7 +294,7 @@ color: #544837;
     
     background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
 }
-.ggg {
+.background-image-section {
     background-image: url(img/bg.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -255,24 +321,27 @@ margin: 50px 200px;
     display: inline-block;
     margin-left: 10px;
     margin-top: 1px;
+    font-family: sans-serif;
 }
 .menu-footer {
     list-style: none;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 .quick-links {
     margin-top: 1px;
     margin-left: 10px;
     margin-right: 10px;
     margin-left: 110px;
+    font-family: sans-serif;
 }
 .legal-stuff {
     margin-top: 1px;
-    margin-left: 120px;
-
+    margin-left: 110px;
+    font-family: sans-serif;
 }
-.li-footer {
+.menu-footer__element {
     margin: 15px 0px ;
+    font-family: sans-serif;
 }
 input {
     width: 160px;
@@ -280,16 +349,18 @@ input {
 .feedback-title {
     margin: 1px;
     margin-left: 100px;
+    font-family: sans-serif;
 
 }
 .footer-feedback {
    padding-top: 0px;
-
+   font-family: sans-serif;
 }
 .input-div {
     margin-top: 10px;
     margin-left: 100px;
     margin-top: 15px;
+    font-family: sans-serif;
 }
 .button-div {
     margin-top: 15px;
@@ -301,12 +372,25 @@ input {
     color: orange;
     border: 1px solid 
     #BCD0E5;
+    font-family: sans-serif;
    
 }
 input::placeholder {
     color: #BCD0E5;
+    font-family: sans-serif;
 }
 .signup-button {
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+.signup-button:hover {
     width: 180px;
     height: 50px;
     color: white;
